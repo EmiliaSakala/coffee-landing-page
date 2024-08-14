@@ -123,6 +123,14 @@ html {
   display: flex;
 }
 
+.hero #banner {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 58%;
+  top: 10%;
+}
+
 .hero .left {
   background-color: #fff;
   padding: 100px;
@@ -164,8 +172,8 @@ html {
   background-color: #fab97d;
   width: 100%;
   height: 100vh;
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
 }
 
 .hero-small {
@@ -394,5 +402,100 @@ html {
   font-size: 12px;
   border-radius: 12px;
   margin: 30px 100px;
+}
+
+.footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .social .logo {
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .social .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer .social .logo h4 {
+  font-size: 30px;
+}
+
+.footer .social .icons i {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footer .hr {
+  width: 105%;
+  height: 5px;
+  background-color: #f4ae26;
+}
+
+.footer .footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-inner .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .footer-inner .links a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: bold;
+  color: #2f2105;
+  text-transform: uppercase;
+}
+
+.footer .footer-inner .contact h3 {
+  font-size: 25px;
+  font-family: boldd;
+}
+
+.footer .footer-inner .contact form textarea {
+  font-family: bold;
+  font-size: 20px;
+  color: #4d3709;
+  background-color: #f6ebda;
+  padding: 10px;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.footer .footer-inner .contact form button {
+  border-radius: 8px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-family: bold;
+  background-color: #835e4c;
+  color: #f5f1f1;
 }
 /*# sourceMappingURL=style.css.map */
